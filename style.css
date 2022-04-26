@@ -1,0 +1,23 @@
+#field {
+    display: grid;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px;
+    row-gap: 5px;
+    column-gap: 5px;
+    border: solid 5px #cdc1b5;
+    background-color: #cdc1b5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.cell {
+    background-color: #bbada0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+}
